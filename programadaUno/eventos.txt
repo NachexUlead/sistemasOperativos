@@ -1,0 +1,34 @@
+[0] P1 arrives
+[0] P1 enters the queue (Ready)
+[0] P1 starts execution (Running)
+[0] P1 executes [0,1); remaining at the end of the interval: 4
+[1] P1 executes [1,2); remaining at the end of the interval: 3
+[2] P2 arrives
+[2] P2 enters the queue (Ready)
+[2] P1 executes [2,3); remaining at the end of the interval: 2
+[3] P3 arrives
+[3] P3 enters the queue (Ready)
+[3] P1 executes [3,4); remaining at the end of the interval: 1
+[4] P1 executes [4,5); remaining at the end of the interval: 0
+[5] P1 finishes (Terminated)
+[5] P2 starts execution (Running)
+[5] P2 executes [5,6); remaining at the end of the interval: 2
+[6] P4 arrives
+[6] P4 enters the queue (Ready)
+[6] P2 executes [6,7); remaining at the end of the interval: 1
+[7] P2 executes [7,8); remaining at the end of the interval: 0
+[8] P2 finishes (Terminated)
+[8] P3 starts execution (Running)
+[8] P3 executes [8,9); remaining at the end of the interval: 7
+[9] P3 executes [9,10); remaining at the end of the interval: 6
+[10] P3 executes [10,11); remaining at the end of the interval: 5
+[11] P3 executes [11,12); remaining at the end of the interval: 4
+[12] P3 executes [12,13); remaining at the end of the interval: 3
+[13] P3 executes [13,14); remaining at the end of the interval: 2
+[14] P3 executes [14,15); remaining at the end of the interval: 1
+[15] P3 executes [15,16); remaining at the end of the interval: 0
+[16] P3 finishes (Terminated)
+[16] P4 starts execution (Running)
+[16] P4 executes [16,17); remaining at the end of the interval: 1
+[17] P4 executes [17,18); remaining at the end of the interval: 0
+[18] P4 finishes (Terminated)

@@ -1,0 +1,138 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [4 0 R 6 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2498 >>
+stream
+BT /F1 10 Tf 13 TL 48 794 Td
+(MINIOS: ANÁLISIS COMPARATIVO DE FIFO Y ROUND ROBIN) Tj T*
+() Tj T*
+(1. Método y datos) Tj T*
+() Tj T*
+(Se ejecutaron FIFO y RR con quantum 1, 3 y 18, con cambios de contexto de costo) Tj T*
+(cero. Todas las llegadas y duraciones son enteras; las llegadas preceden al) Tj T*
+(proceso expropiado en caso de empate. La utilización incluye el tiempo desde cero) Tj T*
+(hasta el último fin.) Tj T*
+() Tj T*
+(Caso base: procesos.csv; P1=\(0,5\), P2=\(2,3\), P3=\(3,8\), P4=\(6,2\). Tiempo total y) Tj T*
+(CPU ocupado: 18 unidades en todas las políticas.) Tj T*
+() Tj T*
+(Política   Q    Espera   Retorno   Respuesta   Cambios   CPU útil) Tj T*
+(FIFO       -      4.50      9.00       4.50         3    100.0%) Tj T*
+(RR         1      5.75     10.25       0.75        12    100.0%) Tj T*
+(RR         3      4.75      9.25       2.25         5    100.0%) Tj T*
+(RR        18      4.50      9.00       4.50         3    100.0%) Tj T*
+() Tj T*
+(Caso propio: casos/analisis_ocho_procesos.csv. Pares \(llegada,duración\):) Tj T*
+(LargoA=\(0,18\), CortoA=\(1,1\), CortoB=\(2,2\), MedioA=\(3,6\), CortoC=\(5,1\),) Tj T*
+(LargoB=\(6,12\), CortoD=\(8,2\), MedioB=\(10,5\). Tiempo total y CPU ocupado: 47) Tj T*
+(unidades.) Tj T*
+() Tj T*
+(Política   Q    Espera   Retorno   Respuesta   Cambios   CPU útil) Tj T*
+(FIFO       -     20.00     25.88      20.00         7    100.0%) Tj T*
+(RR         1     12.25     18.12       1.62        43    100.0%) Tj T*
+(RR         3     12.88     18.75       5.00        17    100.0%) Tj T*
+(RR        18     20.00     25.88      20.00         7    100.0%) Tj T*
+() Tj T*
+(2. Respuesta y espera) Tj T*
+() Tj T*
+(RR con Q=1 logra la menor respuesta promedio en ambos archivos: 0.75 y 1.625. La) Tj T*
+(menor espera es FIFO \(también RR con Q=18\) en el caso base: 4.50; en el caso) Tj T*
+(propio es RR con Q=1: 12.25. Dar CPU pronto mide respuesta; terminar pronto sin) Tj T*
+(muchas esperas posteriores determina la espera total. Por eso los mínimos pueden) Tj T*
+(diferir.) Tj T*
+() Tj T*
+(Espera = fin - llegada - duración; retorno = fin - llegada; respuesta = inicio -) Tj T*
+(llegada. Con FIFO, espera y respuesta coinciden; en RR, se suman también las) Tj T*
+(esperas entre turnos.) Tj T*
+() Tj T*
+(Las tablas redondean a dos decimales; comparacion.csv conserva mayor precisión.) Tj T*
+(Las ocho ejecuciones guardan sus propios resultados.csv y eventos.txt bajo) Tj T*
+(analisis/.) Tj T*
+() Tj T*
+ET
+BT /F1 9 Tf 48 35 Td (MiniOS - 1/2) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2588 >>
+stream
+BT /F1 10 Tf 13 TL 48 794 Td
+(MINIOS: DISCUSIÓN Y DECISIONES) Tj T*
+() Tj T*
+(3. Quantum y cambios de contexto) Tj T*
+() Tj T*
+(Con Q=1 se observan 12 cambios en el caso base y 43 en el propio; con Q=3 se) Tj T*
+(reducen a 5 y 17. Con Q=18 son 3 y 7, los mismos que FIFO, porque ningún proceso) Tj T*
+(necesita más de un quantum. Un quantum pequeño mejora el acceso inicial al CPU,) Tj T*
+(pero aumenta los cambios entre procesos cuando hay competencia.) Tj T*
+() Tj T*
+(4. Efecto convoy) Tj T*
+() Tj T*
+(En el caso propio, LargoA ocupa el CPU de 0 a 18 bajo FIFO. CortoA llega en 1 y) Tj T*
+(solo necesita una unidad, pero espera 17 para empezar y termina en 19. Con RR Q=1) Tj T*
+(empieza en 1 y termina en 2; con Q=3 empieza en 3 y termina en 4. Este proceso) Tj T*
+(concreto muestra el convoy detrás de la tarea larga.) Tj T*
+() Tj T*
+(5. Si cada cambio costara una unidad) Tj T*
+() Tj T*
+(Como estimación conservando las secuencias observadas, con Q=1 la utilización útil) Tj T*
+(sería 18/\(18+12\) = 60.00% y 47/\(47+43\) = 52.22%. El CPU puede estar ocupado) Tj T*
+(cambiando de contexto sin avanzar trabajo útil. Si se simulara ese costo, las) Tj T*
+(llegadas durante los cambios podrían alterar la secuencia y el número de cambios;) Tj T*
+(estas cifras son una aproximación, no otra simulación.) Tj T*
+() Tj T*
+(6. Quantum recomendado) Tj T*
+() Tj T*
+(Para un sistema compartido elegiría Q=3 como compromiso: en el caso propio baja la) Tj T*
+(respuesta de 20.00 a 5.00 y la espera de 20.00 a 12.875 frente a FIFO, con 17) Tj T*
+(cambios en lugar de 43 con Q=1. Si la prioridad absoluta fuera responder cuanto) Tj T*
+(antes y los cambios realmente fueran gratis, Q=1 sería preferible en estos datos.) Tj T*
+(La recomendación depende del objetivo y no se generaliza a cualquier carga.) Tj T*
+() Tj T*
+(7. Verificación y aclaración del enunciado) Tj T*
+() Tj T*
+(Las pruebas automatizadas reproducen las secciones 10 y 18, FIFO y los casos de) Tj T*
+(desempate, ocio, llegadas simultáneas, renovación sin competencia y entradas) Tj T*
+(inválidas. El conjunto propio tiene ocho procesos, cumpliendo el mínimo más) Tj T*
+(estricto de los entregables.) Tj T*
+() Tj T*
+(La tabla de la sección 18 asigna dos expropiaciones a P3. Según la regla 9.2.7, en) Tj T*
+(t=16 P3 está solo y renueva su quantum sin expropiación: el resultado correcto) Tj T*
+(siguiendo esa regla es una expropiación. Se conservan los otros valores de la) Tj T*
+(tabla, incluidos los cinco cambios de contexto. No se cuenta la primera) Tj T*
+(asignación.) Tj T*
+() Tj T*
+ET
+BT /F1 9 Tf 48 35 Td (MiniOS - 2/2) Tj ET
+endstream
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000222 00000 n 
+0000000348 00000 n 
+0000002898 00000 n 
+0000003024 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+5664
+%%EOF

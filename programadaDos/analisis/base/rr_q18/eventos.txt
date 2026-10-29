@@ -1,0 +1,30 @@
+[0] P1 llega al sistema y entra a la cola (Listo)
+[0] P1 inicia ejecución (Ejecutando)
+[0] P1 ejecuta [0,1); restante=4
+[1] P1 ejecuta [1,2); restante=3
+[2] P2 llega al sistema y entra a la cola (Listo)
+[2] P1 ejecuta [2,3); restante=2
+[3] P3 llega al sistema y entra a la cola (Listo)
+[3] P1 ejecuta [3,4); restante=1
+[4] P1 ejecuta [4,5); restante=0
+[5] P1 termina (Terminado)
+[5] P2 inicia ejecución (Ejecutando)
+[5] P2 ejecuta [5,6); restante=2
+[6] P4 llega al sistema y entra a la cola (Listo)
+[6] P2 ejecuta [6,7); restante=1
+[7] P2 ejecuta [7,8); restante=0
+[8] P2 termina (Terminado)
+[8] P3 inicia ejecución (Ejecutando)
+[8] P3 ejecuta [8,9); restante=7
+[9] P3 ejecuta [9,10); restante=6
+[10] P3 ejecuta [10,11); restante=5
+[11] P3 ejecuta [11,12); restante=4
+[12] P3 ejecuta [12,13); restante=3
+[13] P3 ejecuta [13,14); restante=2
+[14] P3 ejecuta [14,15); restante=1
+[15] P3 ejecuta [15,16); restante=0
+[16] P3 termina (Terminado)
+[16] P4 inicia ejecución (Ejecutando)
+[16] P4 ejecuta [16,17); restante=1
+[17] P4 ejecuta [17,18); restante=0
+[18] P4 termina (Terminado)

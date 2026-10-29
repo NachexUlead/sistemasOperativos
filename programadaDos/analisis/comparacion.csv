@@ -1,0 +1,9 @@
+archivo,politica,quantum,procesos,tiempo_total,espera_promedio,retorno_promedio,respuesta_promedio,cambios_contexto,utilizacion_cpu
+base,fifo,,4,18,4.5,9,4.5,3,100.0
+base,rr,1,4,18,5.75,10.25,0.75,12,100.0
+base,rr,3,4,18,4.75,9.25,2.25,5,100.0
+base,rr,18,4,18,4.5,9,4.5,3,100.0
+ocho_procesos,fifo,,8,47,20,25.875,20,7,100.0
+ocho_procesos,rr,1,8,47,12.25,18.125,1.625,43,100.0
+ocho_procesos,rr,3,8,47,12.875,18.75,5,17,100.0
+ocho_procesos,rr,18,8,47,20,25.875,20,7,100.0

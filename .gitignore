@@ -9,3 +9,8 @@ venv/
 # Optional output directories
 outputs/
 salidas/
+
+# Local tool configuration
+.agents/
+.aws/
+.codex/

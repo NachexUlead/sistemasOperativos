@@ -1,0 +1,9 @@
+id,llegada,duracion,inicio,fin,espera,retorno,respuesta,expropiaciones
+LargoA,0,18,0,47,29,47,0,14
+CortoA,1,1,1,2,0,1,0,0
+CortoB,2,2,3,7,3,5,1,1
+MedioA,3,6,4,26,17,23,1,5
+CortoC,5,1,7,8,2,3,2,0
+LargoB,6,12,9,43,25,37,3,11
+CortoD,8,2,11,17,7,9,3,1
+MedioB,10,5,13,30,15,20,3,4

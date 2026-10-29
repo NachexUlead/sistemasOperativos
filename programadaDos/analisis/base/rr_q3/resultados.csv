@@ -1,0 +1,5 @@
+id,llegada,duracion,inicio,fin,espera,retorno,respuesta,expropiaciones
+P1,0,5,0,11,6,11,0,1
+P2,2,3,3,6,1,4,1,0
+P3,3,8,6,18,7,15,3,1
+P4,6,2,11,13,5,7,5,0

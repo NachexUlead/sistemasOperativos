@@ -1,0 +1,71 @@
+[0] LargoA llega al sistema y entra a la cola (Listo)
+[0] LargoA inicia ejecución (Ejecutando)
+[0] LargoA ejecuta [0,1); restante=17
+[1] CortoA llega al sistema y entra a la cola (Listo)
+[1] LargoA ejecuta [1,2); restante=16
+[2] CortoB llega al sistema y entra a la cola (Listo)
+[2] LargoA ejecuta [2,3); restante=15
+[3] MedioA llega al sistema y entra a la cola (Listo)
+[3] LargoA ejecuta [3,4); restante=14
+[4] LargoA ejecuta [4,5); restante=13
+[5] CortoC llega al sistema y entra a la cola (Listo)
+[5] LargoA ejecuta [5,6); restante=12
+[6] LargoB llega al sistema y entra a la cola (Listo)
+[6] LargoA ejecuta [6,7); restante=11
+[7] LargoA ejecuta [7,8); restante=10
+[8] CortoD llega al sistema y entra a la cola (Listo)
+[8] LargoA ejecuta [8,9); restante=9
+[9] LargoA ejecuta [9,10); restante=8
+[10] MedioB llega al sistema y entra a la cola (Listo)
+[10] LargoA ejecuta [10,11); restante=7
+[11] LargoA ejecuta [11,12); restante=6
+[12] LargoA ejecuta [12,13); restante=5
+[13] LargoA ejecuta [13,14); restante=4
+[14] LargoA ejecuta [14,15); restante=3
+[15] LargoA ejecuta [15,16); restante=2
+[16] LargoA ejecuta [16,17); restante=1
+[17] LargoA ejecuta [17,18); restante=0
+[18] LargoA termina (Terminado)
+[18] CortoA inicia ejecución (Ejecutando)
+[18] CortoA ejecuta [18,19); restante=0
+[19] CortoA termina (Terminado)
+[19] CortoB inicia ejecución (Ejecutando)
+[19] CortoB ejecuta [19,20); restante=1
+[20] CortoB ejecuta [20,21); restante=0
+[21] CortoB termina (Terminado)
+[21] MedioA inicia ejecución (Ejecutando)
+[21] MedioA ejecuta [21,22); restante=5
+[22] MedioA ejecuta [22,23); restante=4
+[23] MedioA ejecuta [23,24); restante=3
+[24] MedioA ejecuta [24,25); restante=2
+[25] MedioA ejecuta [25,26); restante=1
+[26] MedioA ejecuta [26,27); restante=0
+[27] MedioA termina (Terminado)
+[27] CortoC inicia ejecución (Ejecutando)
+[27] CortoC ejecuta [27,28); restante=0
+[28] CortoC termina (Terminado)
+[28] LargoB inicia ejecución (Ejecutando)
+[28] LargoB ejecuta [28,29); restante=11
+[29] LargoB ejecuta [29,30); restante=10
+[30] LargoB ejecuta [30,31); restante=9
+[31] LargoB ejecuta [31,32); restante=8
+[32] LargoB ejecuta [32,33); restante=7
+[33] LargoB ejecuta [33,34); restante=6
+[34] LargoB ejecuta [34,35); restante=5
+[35] LargoB ejecuta [35,36); restante=4
+[36] LargoB ejecuta [36,37); restante=3
+[37] LargoB ejecuta [37,38); restante=2
+[38] LargoB ejecuta [38,39); restante=1
+[39] LargoB ejecuta [39,40); restante=0
+[40] LargoB termina (Terminado)
+[40] CortoD inicia ejecución (Ejecutando)
+[40] CortoD ejecuta [40,41); restante=1
+[41] CortoD ejecuta [41,42); restante=0
+[42] CortoD termina (Terminado)
+[42] MedioB inicia ejecución (Ejecutando)
+[42] MedioB ejecuta [42,43); restante=4
+[43] MedioB ejecuta [43,44); restante=3
+[44] MedioB ejecuta [44,45); restante=2
+[45] MedioB ejecuta [45,46); restante=1
+[46] MedioB ejecuta [46,47); restante=0
+[47] MedioB termina (Terminado)

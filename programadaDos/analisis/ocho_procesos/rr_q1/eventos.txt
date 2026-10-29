@@ -1,0 +1,182 @@
+[0] LargoA llega al sistema y entra a la cola (Listo)
+[0] LargoA inicia ejecución (Ejecutando)
+[0] LargoA ejecuta [0,1); restante=17
+[1] CortoA llega al sistema y entra a la cola (Listo)
+[1] LargoA agota su quantum (restante=17)
+[1] LargoA vuelve a la cola (Listo)
+[1] CortoA inicia ejecución (Ejecutando)
+[1] CortoA ejecuta [1,2); restante=0
+[2] CortoB llega al sistema y entra a la cola (Listo)
+[2] CortoA termina (Terminado)
+[2] LargoA retoma ejecución (Ejecutando)
+[2] LargoA ejecuta [2,3); restante=16
+[3] MedioA llega al sistema y entra a la cola (Listo)
+[3] LargoA agota su quantum (restante=16)
+[3] LargoA vuelve a la cola (Listo)
+[3] CortoB inicia ejecución (Ejecutando)
+[3] CortoB ejecuta [3,4); restante=1
+[4] CortoB agota su quantum (restante=1)
+[4] CortoB vuelve a la cola (Listo)
+[4] MedioA inicia ejecución (Ejecutando)
+[4] MedioA ejecuta [4,5); restante=5
+[5] CortoC llega al sistema y entra a la cola (Listo)
+[5] MedioA agota su quantum (restante=5)
+[5] MedioA vuelve a la cola (Listo)
+[5] LargoA retoma ejecución (Ejecutando)
+[5] LargoA ejecuta [5,6); restante=15
+[6] LargoB llega al sistema y entra a la cola (Listo)
+[6] LargoA agota su quantum (restante=15)
+[6] LargoA vuelve a la cola (Listo)
+[6] CortoB retoma ejecución (Ejecutando)
+[6] CortoB ejecuta [6,7); restante=0
+[7] CortoB termina (Terminado)
+[7] CortoC inicia ejecución (Ejecutando)
+[7] CortoC ejecuta [7,8); restante=0
+[8] CortoD llega al sistema y entra a la cola (Listo)
+[8] CortoC termina (Terminado)
+[8] MedioA retoma ejecución (Ejecutando)
+[8] MedioA ejecuta [8,9); restante=4
+[9] MedioA agota su quantum (restante=4)
+[9] MedioA vuelve a la cola (Listo)
+[9] LargoB inicia ejecución (Ejecutando)
+[9] LargoB ejecuta [9,10); restante=11
+[10] MedioB llega al sistema y entra a la cola (Listo)
+[10] LargoB agota su quantum (restante=11)
+[10] LargoB vuelve a la cola (Listo)
+[10] LargoA retoma ejecución (Ejecutando)
+[10] LargoA ejecuta [10,11); restante=14
+[11] LargoA agota su quantum (restante=14)
+[11] LargoA vuelve a la cola (Listo)
+[11] CortoD inicia ejecución (Ejecutando)
+[11] CortoD ejecuta [11,12); restante=1
+[12] CortoD agota su quantum (restante=1)
+[12] CortoD vuelve a la cola (Listo)
+[12] MedioA retoma ejecución (Ejecutando)
+[12] MedioA ejecuta [12,13); restante=3
+[13] MedioA agota su quantum (restante=3)
+[13] MedioA vuelve a la cola (Listo)
+[13] MedioB inicia ejecución (Ejecutando)
+[13] MedioB ejecuta [13,14); restante=4
+[14] MedioB agota su quantum (restante=4)
+[14] MedioB vuelve a la cola (Listo)
+[14] LargoB retoma ejecución (Ejecutando)
+[14] LargoB ejecuta [14,15); restante=10
+[15] LargoB agota su quantum (restante=10)
+[15] LargoB vuelve a la cola (Listo)
+[15] LargoA retoma ejecución (Ejecutando)
+[15] LargoA ejecuta [15,16); restante=13
+[16] LargoA agota su quantum (restante=13)
+[16] LargoA vuelve a la cola (Listo)
+[16] CortoD retoma ejecución (Ejecutando)
+[16] CortoD ejecuta [16,17); restante=0
+[17] CortoD termina (Terminado)
+[17] MedioA retoma ejecución (Ejecutando)
+[17] MedioA ejecuta [17,18); restante=2
+[18] MedioA agota su quantum (restante=2)
+[18] MedioA vuelve a la cola (Listo)
+[18] MedioB retoma ejecución (Ejecutando)
+[18] MedioB ejecuta [18,19); restante=3
+[19] MedioB agota su quantum (restante=3)
+[19] MedioB vuelve a la cola (Listo)
+[19] LargoB retoma ejecución (Ejecutando)
+[19] LargoB ejecuta [19,20); restante=9
+[20] LargoB agota su quantum (restante=9)
+[20] LargoB vuelve a la cola (Listo)
+[20] LargoA retoma ejecución (Ejecutando)
+[20] LargoA ejecuta [20,21); restante=12
+[21] LargoA agota su quantum (restante=12)
+[21] LargoA vuelve a la cola (Listo)
+[21] MedioA retoma ejecución (Ejecutando)
+[21] MedioA ejecuta [21,22); restante=1
+[22] MedioA agota su quantum (restante=1)
+[22] MedioA vuelve a la cola (Listo)
+[22] MedioB retoma ejecución (Ejecutando)
+[22] MedioB ejecuta [22,23); restante=2
+[23] MedioB agota su quantum (restante=2)
+[23] MedioB vuelve a la cola (Listo)
+[23] LargoB retoma ejecución (Ejecutando)
+[23] LargoB ejecuta [23,24); restante=8
+[24] LargoB agota su quantum (restante=8)
+[24] LargoB vuelve a la cola (Listo)
+[24] LargoA retoma ejecución (Ejecutando)
+[24] LargoA ejecuta [24,25); restante=11
+[25] LargoA agota su quantum (restante=11)
+[25] LargoA vuelve a la cola (Listo)
+[25] MedioA retoma ejecución (Ejecutando)
+[25] MedioA ejecuta [25,26); restante=0
+[26] MedioA termina (Terminado)
+[26] MedioB retoma ejecución (Ejecutando)
+[26] MedioB ejecuta [26,27); restante=1
+[27] MedioB agota su quantum (restante=1)
+[27] MedioB vuelve a la cola (Listo)
+[27] LargoB retoma ejecución (Ejecutando)
+[27] LargoB ejecuta [27,28); restante=7
+[28] LargoB agota su quantum (restante=7)
+[28] LargoB vuelve a la cola (Listo)
+[28] LargoA retoma ejecución (Ejecutando)
+[28] LargoA ejecuta [28,29); restante=10
+[29] LargoA agota su quantum (restante=10)
+[29] LargoA vuelve a la cola (Listo)
+[29] MedioB retoma ejecución (Ejecutando)
+[29] MedioB ejecuta [29,30); restante=0
+[30] MedioB termina (Terminado)
+[30] LargoB retoma ejecución (Ejecutando)
+[30] LargoB ejecuta [30,31); restante=6
+[31] LargoB agota su quantum (restante=6)
+[31] LargoB vuelve a la cola (Listo)
+[31] LargoA retoma ejecución (Ejecutando)
+[31] LargoA ejecuta [31,32); restante=9
+[32] LargoA agota su quantum (restante=9)
+[32] LargoA vuelve a la cola (Listo)
+[32] LargoB retoma ejecución (Ejecutando)
+[32] LargoB ejecuta [32,33); restante=5
+[33] LargoB agota su quantum (restante=5)
+[33] LargoB vuelve a la cola (Listo)
+[33] LargoA retoma ejecución (Ejecutando)
+[33] LargoA ejecuta [33,34); restante=8
+[34] LargoA agota su quantum (restante=8)
+[34] LargoA vuelve a la cola (Listo)
+[34] LargoB retoma ejecución (Ejecutando)
+[34] LargoB ejecuta [34,35); restante=4
+[35] LargoB agota su quantum (restante=4)
+[35] LargoB vuelve a la cola (Listo)
+[35] LargoA retoma ejecución (Ejecutando)
+[35] LargoA ejecuta [35,36); restante=7
+[36] LargoA agota su quantum (restante=7)
+[36] LargoA vuelve a la cola (Listo)
+[36] LargoB retoma ejecución (Ejecutando)
+[36] LargoB ejecuta [36,37); restante=3
+[37] LargoB agota su quantum (restante=3)
+[37] LargoB vuelve a la cola (Listo)
+[37] LargoA retoma ejecución (Ejecutando)
+[37] LargoA ejecuta [37,38); restante=6
+[38] LargoA agota su quantum (restante=6)
+[38] LargoA vuelve a la cola (Listo)
+[38] LargoB retoma ejecución (Ejecutando)
+[38] LargoB ejecuta [38,39); restante=2
+[39] LargoB agota su quantum (restante=2)
+[39] LargoB vuelve a la cola (Listo)
+[39] LargoA retoma ejecución (Ejecutando)
+[39] LargoA ejecuta [39,40); restante=5
+[40] LargoA agota su quantum (restante=5)
+[40] LargoA vuelve a la cola (Listo)
+[40] LargoB retoma ejecución (Ejecutando)
+[40] LargoB ejecuta [40,41); restante=1
+[41] LargoB agota su quantum (restante=1)
+[41] LargoB vuelve a la cola (Listo)
+[41] LargoA retoma ejecución (Ejecutando)
+[41] LargoA ejecuta [41,42); restante=4
+[42] LargoA agota su quantum (restante=4)
+[42] LargoA vuelve a la cola (Listo)
+[42] LargoB retoma ejecución (Ejecutando)
+[42] LargoB ejecuta [42,43); restante=0
+[43] LargoB termina (Terminado)
+[43] LargoA retoma ejecución (Ejecutando)
+[43] LargoA ejecuta [43,44); restante=3
+[44] LargoA renueva quantum sin expropiación; cola vacía
+[44] LargoA ejecuta [44,45); restante=2
+[45] LargoA renueva quantum sin expropiación; cola vacía
+[45] LargoA ejecuta [45,46); restante=1
+[46] LargoA renueva quantum sin expropiación; cola vacía
+[46] LargoA ejecuta [46,47); restante=0
+[47] LargoA termina (Terminado)
